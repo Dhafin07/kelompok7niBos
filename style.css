@@ -1,0 +1,218 @@
+html, body{
+     background-image: url('bg.jpg');
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+
+}
+
+.all{
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 0px 0px 90px 0px;
+
+}
+
+.anggota h1{
+    color: white;
+    margin: 0px 20px 0px 20px;
+    font-size: 25px;
+}
+.namaKelompok{
+    text-align: center;
+    padding-top: 20px;
+    color: #efefef;
+    font-size: 20pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    background-color: rgb(58, 65, 255);
+    border-radius: 0% 0% 10% 10%;
+}
+
+
+.fotoDapin{
+    border-radius: 50%;
+    border: 3px solid #efefef;
+    box-shadow: 5px 8px 10px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+  }
+
+.namaDapin{
+    padding-top: 10px;
+}  
+
+.namaDapin strong{
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+.namaDapin p{
+    color: aliceblue;
+}
+
+
+.fotoEpan{
+    border-radius: 50%;
+    border: 3px solid #efefef;
+    box-shadow: 5px 8px 10px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 0% ;
+  }  
+
+.namaEpan{
+    padding-top: 10px;
+    color: aliceblue;
+} 
+
+.namaEpan strong{
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+
+.fotoHilal{
+    border-radius: 50%;
+    border: 3px solid #efefef;
+    box-shadow: 5px 8px 10px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+  }  
+
+.namaHilal{
+    padding-top: 10px;
+    color: aliceblue;
+}  
+
+.namaHilal strong{
+    font-size: 20pt;
+    color: aliceblue;
+}  
+
+.fotoIbam{
+    border-radius: 50%;
+    border: 3px solid #efefef;
+    box-shadow: 5px 8px 10px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+  }  
+
+.namaIbam{
+    padding-top: 10px;
+    color: aliceblue;
+}  
+
+.namaIbam strong{
+    font-size: 20pt;
+    color: aliceblue;
+}  
+  
+
+.fotoReyhan{
+    border-radius: 50%;
+    border: 3px solid #efefef;
+    box-shadow: 5px 8px 10px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+  }  
+
+.namaReyhan{
+    padding-top: 10px;
+    color: aliceblue;
+}  
+
+.namaReyhan strong{
+    font-size: 20pt;
+    color: aliceblue;
+}  
+
+.materi{
+    margin: 0px 25px 70px 25px;
+    color: aliceblue;
+}
+.materi h1{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+
+
+.non-koperatif strong{
+    font-size: 20pt
+}
+
+.bawaTanah strong{
+    font-size: 20pt
+}
+
+
+
+.masa strong{
+    font-size: 20pt
+}
+
+.read-more-container{
+    border-radius: 10px;
+    border: 3px solid #efefef;
+    box-shadow: 5px 8px 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    padding: 0px 10px 0px 15px;
+    background-color: rgb(218, 122, 32);
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+    /* border: 3px solid #b2ff89; */
+}
+
+.read-more-container--show{
+    background-color: rgb(205, 255, 151);
+    display: inline;
+}
+
+.read-more-btn{
+    color: rgb(251, 255, 0);
+}
+/* .slide{
+    height: 80vh;
+    border-radius: 29px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 0.7s ease-in-out;
+    filter: blur(5px);
+}
+
+.slide.active{
+    flex: 20;
+    filter: blur(0px);
+} */
